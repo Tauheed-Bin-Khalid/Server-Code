@@ -16,9 +16,6 @@ const listSchema = new mongoose.Schema({
     }
 })
 
-   
-
-
 // create a new collection usig model
 
 const List = new mongoose.model("List",listSchema)
